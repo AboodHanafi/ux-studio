@@ -4,7 +4,7 @@ import Typography from "../Typography/Typography"
 
 const Banner = () => {
   return (
-    <div className="bg-black rounded-2xl sm:rounded-3xl flex items-start text-white py-2 h-[250px] ">
+    <div className="bg-black rounded-2xl sm:rounded-3xl flex items-start text-white py-2 h-[250px] mb-5">
 
       {Icons.curveArrow()}
       <div className="flex justify-between flex-wrap items-end   sm:items-center w-full h-full px-1 sm:px-5 ">
