@@ -13,6 +13,15 @@ const Icons = {
           </svg>
         );
     },
+    curveArrow : () => {
+      return (
+
+<svg width="273" height="141" viewBox="0 0 273 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M310.461 105.154C246.639 161.324 114.519 12.2015 138.515 2.57468C162.51 -7.05216 161.645 96.6581 91.7378 112.32C62.0518 118.971 21.8232 86.2192 34.0422 78.4843C46.2612 70.7494 75.0028 121.54 1.50093 133.898M1.50093 133.898L8.56843 122.66M1.50093 133.898L13.2404 139.436" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+      )
+    }
     
 };
 

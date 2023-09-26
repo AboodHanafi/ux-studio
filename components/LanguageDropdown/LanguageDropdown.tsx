@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 
 const LanguageDropdown = () => {
   const [isLanguageListOpen, setIsLanguageListOpen] = useState(false); // Track the visibility of the language list
-  const [selectedLanguage, setSelectedLanguage] = useState('ar'); // Default language is Arabic
+  const [selectedLanguage, setSelectedLanguage] = useState('en'); // Default language is Arabic
 
   const dropdownRef = useRef<HTMLDivElement | null>(null); // Ref for the dropdown element
 

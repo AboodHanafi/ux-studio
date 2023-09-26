@@ -15,7 +15,7 @@ const Typography: React.FC<TypographyProps> = ({
   className,
   children,
 }: TypographyProps) => {
-  const classNames = `${fontSize} ${fontWeight} ${color}`;
+  const classNames = `${fontSize} ${fontWeight} ${color} ${className}`;
 
   return <span className={classNames}>{children}</span>;
 };

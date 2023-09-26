@@ -5,6 +5,7 @@ import HeroSection from '@/components/HeroSection/HeroSection'
 import Typography from '@/components/Typography/Typography'
 import Card from '@/components/Card/Card'
 import { CardsText } from '@/assets/dummyData'
+import Banner from '@/components/Banner/Banner'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     ))}
     </div>
     </div>
+    <Banner />
   </div>
   )
 }
